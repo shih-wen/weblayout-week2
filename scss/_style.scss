@@ -1,0 +1,189 @@
+// h2 title
+h2 {
+  font-family: “Roboto-MediumItalic”;
+  font-size: 64px;
+  line-height: 84px;
+  text-align: center;
+}
+
+// Banner JOANNE
+.banner {
+  width: 100%;
+  min-height: 958px;
+  //   height: 100vh;
+  background: url(../images/banner-01.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-info {
+  color: #fff;
+  width: 304px;
+  ul {
+    li:nth-child(2) {
+      font-size: 80px;
+      line-height: 106px;
+      margin-bottom: 32px;
+    }
+    li:nth-child(3) {
+      width: 283px;
+      margin: 0 auto;
+      padding: 4px 0;
+      margin-bottom: 40px;
+    }
+    li:nth-child(4) {
+      width: 288px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+// About
+.about {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin-top: 56px;
+    margin-bottom: 40px;
+  }
+  img {
+    display: block;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 4px;
+  }
+  .year {
+    margin-bottom: 8px;
+  }
+  .school {
+    width: 412px;
+    height: 72px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+.about .line {
+  display: block;
+  width: 384px;
+  height: 1px;
+  color: #000;
+  margin-top: 24px;
+  margin-bottom: 27px;
+}
+.about ul {
+  text-align: center;
+  margin-bottom: -28px;
+  li {
+    margin-bottom: 28px;
+  }
+  li::before {
+    content: "";
+    display: inline-block;
+    background-color: #891818;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+}
+
+// My Brand
+.my-brand {
+  color: #fff;
+  background-color: #000;
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin-top: 56px;
+    margin-bottom: 12px;
+  }
+  p {
+    margin-bottom: 32px;
+  }
+  .w-320 {
+    width: 320px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+.my-brand .t-shirt-1 {
+  margin-top: 68px;
+  margin-bottom: 40px;
+}
+.my-brand .t-shirt-2 {
+  margin-bottom: 160px;
+  .t-shirt-2-1 {
+    margin-right: 24px;
+  }
+}
+
+// Other Works
+.other-works {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin-top: 56px;
+    margin-bottom: 16px;
+  }
+  .works {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 226px;
+    margin-bottom: 56px;
+  }
+}
+.other-works ul {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  li {
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+    img {
+      margin-bottom: 16px;
+    }
+  }
+}
+.other-works ul:last-child {
+  margin-bottom: -48px;
+}
+
+.contact {
+  color: #fff;
+  background-color: #000;
+  margin-top: 144px;
+  padding: 64px 0;
+  title {
+    margin-top: 64px;
+    margin-bottom: 16px;
+  }
+  p,
+  .mail {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  a {
+    color: #fff;
+  }
+}
