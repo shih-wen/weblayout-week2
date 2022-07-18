@@ -195,13 +195,6 @@ h2 {
   text-align: center;
 }
 
-h2 {
-  font-family: “Roboto-MediumItalic”;
-  font-size: 64px;
-  line-height: 84px;
-  text-align: center;
-}
-
 .banner {
   width: 100%;
   min-height: 958px;
@@ -393,8 +386,4 @@ h2 {
 
 img {
   vertical-align: middle;
-}
-
-* {
-  outline: 1px solid red;
 }/*# sourceMappingURL=all.css.map */
